@@ -1,4 +1,6 @@
 # tecnomultimedia
+tp3
+Escape del area 51
 Esta aventura grafica trata de como el usuario, quien estaba acampando con su familia, se topa con un extraterrestre llamado Blop. 
 Este fue capturado por cientificos del area 51. Aunque logra escapar de la jaula donde lo tenian capturado, todavia necesita encontrar su nave.
 El usuario tiene que elegir entre tres rutas de escape: atravezar una colina, cruzar el edificio hasta llegar a su nave, o rodear el edificio por la ruta.
