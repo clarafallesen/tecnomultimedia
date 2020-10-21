@@ -18,8 +18,8 @@ class Juego {
     llave= new Llave();
     //decoraciones
     for (int i =0; i<img.length; i++) {
-    img[i]=loadImage("imagen"+i+".png");
-  }
+      img[i]=loadImage("imagen"+i+".png");
+    }
     for ( int i = 0; i < c; i++ ) {
       cientifico[i]=new Cientifico(random(100, 300), i);
     }
@@ -29,10 +29,9 @@ class Juego {
   void actualizar() {
     for ( int i = 0; i < c; i++ ) {
       cientifico[i].actualizar();
-    
     }
     jugador.llave(llave);
-
+    
     //pantallas de volver a empezar
     jugador.perder(cientifico, "perdiste");
   }
@@ -45,7 +44,7 @@ class Juego {
       llave= new Llave();
     }
     if (estado.equals("menu")&& mouseX>(width/2-200)-37 && mouseX<(width/2-200)+37 && 
-    mouseY>( height -height/3-100)-37 && mouseY<( height -height/3-100)+37){//width/2-200, height -height/3-100, 75
+      mouseY>( height -height/3-100)-37 && mouseY<( height -height/3-100)+37) {//width/2-200, height -height/3-100, 75
       juego.cambiarEstado("jugar");
     }
   }
@@ -54,7 +53,7 @@ class Juego {
   void dibujar() {
     //estado del juego
     if ( estado.equals( "menu" ) ) {
-    menu(img[2],img[0], img[5]);
+      menu(img[2], img[0], img[5]);
     }
     if ( estado.equals( "jugar" ) ) {
       jugador.dibujar();

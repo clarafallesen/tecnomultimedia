@@ -73,21 +73,9 @@ class Blop {
   void perder(Cientifico[] cien, String estado_) {
     for (int i=0; i<cien.length; i++) {
       float d = dist( x, y, cien[i].x, cien[i].y );
-      //DEBUG ????----------------------------------!!!!!!!!!!!!!!!!1111!!!!!!!!!!!!
-      //  pushStyle();
-      // noFill();
-      // stroke( 255, 0, 0 );
-      // strokeWeight( 5 );
-      // circle( x, y, tam/1.5  );
-      // circle( cien[i].x, cien[i].y, cien[i].tam );     
-      // strokeWeight( 2 );
-      // line( x, y-tam/4, cien[i].x, cien[i].y );
-      //println( "x: " + x + " | y " + y); 
-      // println( "cien[i].x: " + cien[i].x + " | cien[i].y: " + cien[i].y ); 
-      // popStyle();
       if (d<tam/1.5) {
         juego.cambiarEstado(estado_);
-        //println(estadoJuego);
+        
       }
     }
   }

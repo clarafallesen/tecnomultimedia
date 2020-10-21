@@ -45,10 +45,10 @@ void menu(PImage img, PImage img1, PImage img2) {
   textSize(18);
   textAlign(LEFT);
   text("Para escapar del area 51 \n tengo que cruzar este edificio \n sin ser capturado por los\n cientificos. \n No olvide buscar la llave \n que abre la puerta", 
-   width/2-345, height -height/2-200);
+    width/2-345, height -height/2-200);
   image(img2, width/2-200, height -height/3-150, 300, 350 );
   fill(0);
   popStyle();
-   textSize(18);
-   botones(width/2-200, height -height/3-100, 75, "Empecemos");
+  textSize(18);
+  botones(width/2-200, height -height/3-100, 75, "Empecemos");
 }
