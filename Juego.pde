@@ -1,3 +1,4 @@
+//CLARITA DIME SI SE GUARDAN MIS MODIFICACIONES O NO
 class Juego {
    //fuentes
   PFont [] fuente = new PFont [5];
